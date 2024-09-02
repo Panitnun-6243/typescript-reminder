@@ -4,6 +4,7 @@ import { spreadOperator } from './mjs/spreadOperator.mjs'
 import { restOperator } from './mjs/restOperator.mjs'
 import { templateLiteral } from './mjs/templateLiteral.mjs'
 import { booleanOperator } from './mjs/booleanOperator.mjs'
+import { arrowFunction } from './mjs/arrowFunction.mjs'
 
 const url = 'https://jsonplaceholder.typicode.com/todos/1'
 
@@ -36,3 +37,4 @@ spreadOperator()
 restOperator()
 templateLiteral()
 booleanOperator()
+arrowFunction()
