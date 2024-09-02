@@ -2,6 +2,8 @@ import axios from 'axios'
 import { modules } from './mjs/es6Module.mjs'
 import { spreadOperator } from './mjs/spreadOperator.mjs'
 import { restOperator } from './mjs/restOperator.mjs'
+import { templateLiteral } from './mjs/templateLiteral.mjs'
+import { booleanOperator } from './mjs/booleanOperator.mjs'
 
 const url = 'https://jsonplaceholder.typicode.com/todos/1'
 
@@ -32,3 +34,5 @@ const logTodo = (id: number, title: string, completed: string) => {
 modules()
 spreadOperator()
 restOperator()
+templateLiteral()
+booleanOperator()
