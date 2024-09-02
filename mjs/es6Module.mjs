@@ -40,4 +40,17 @@ export const modules = () => {
   const [, , en] = languages
   console.log(th)
   console.log(en)
+
+  const person = {
+    name: 'Tanny',
+    age: 20,
+    socials: {
+      line: 'nongtannyLine',
+      facebook: 'nongtannyFacebook',
+    },
+  }
+  const printSocial = ({ socials: { line, facebook } }) => {
+    console.log(line, facebook)
+  }
+  printSocial(person)
 }
