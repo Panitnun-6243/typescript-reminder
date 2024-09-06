@@ -5,6 +5,7 @@ import { restOperator } from './mjs/restOperator.mjs'
 import { templateLiteral } from './mjs/templateLiteral.mjs'
 import { booleanOperator } from './mjs/booleanOperator.mjs'
 import { arrowFunction } from './mjs/arrowFunction.mjs'
+import { mapFilter } from './mjs/mapfilter.mjs'
 
 const url = 'https://jsonplaceholder.typicode.com/todos/1'
 
@@ -38,3 +39,4 @@ restOperator()
 templateLiteral()
 booleanOperator()
 arrowFunction()
+mapFilter()
