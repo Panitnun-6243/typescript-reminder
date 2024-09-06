@@ -6,6 +6,7 @@ import { templateLiteral } from './mjs/templateLiteral.mjs'
 import { booleanOperator } from './mjs/booleanOperator.mjs'
 import { arrowFunction } from './mjs/arrowFunction.mjs'
 import { mapFilter } from './mjs/mapfilter.mjs'
+import { asyncFetchApi } from './mjs/asyncFetchApi.mjs'
 
 const url = 'https://jsonplaceholder.typicode.com/todos/1'
 
@@ -40,3 +41,4 @@ templateLiteral()
 booleanOperator()
 arrowFunction()
 mapFilter()
+asyncFetchApi()
