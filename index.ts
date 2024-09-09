@@ -7,6 +7,7 @@ import { booleanOperator } from './mjs/booleanOperator.mjs'
 import { arrowFunction } from './mjs/arrowFunction.mjs'
 import { mapFilter } from './mjs/mapfilter.mjs'
 import { asyncFetchApi } from './mjs/asyncFetchApi.mjs'
+import { reminder } from './ts-reminder-specific/reminder'
 
 const url = 'https://jsonplaceholder.typicode.com/todos/1'
 
@@ -33,7 +34,7 @@ const logTodo = (id: number, title: string, completed: string) => {
   `)
 }
 
-// babelcoder reminder
+// babelcoder js reminder
 modules()
 spreadOperator()
 restOperator()
@@ -42,3 +43,6 @@ booleanOperator()
 arrowFunction()
 mapFilter()
 asyncFetchApi()
+
+// ts reminder
+reminder()
