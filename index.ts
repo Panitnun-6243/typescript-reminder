@@ -8,6 +8,7 @@ import { arrowFunction } from './mjs/arrowFunction.mjs'
 import { mapFilter } from './mjs/mapfilter.mjs'
 import { asyncFetchApi } from './mjs/asyncFetchApi.mjs'
 import { reminder } from './ts-reminder-specific/reminder'
+import { task } from './ts-reminder-specific/task'
 
 const url = 'https://jsonplaceholder.typicode.com/todos/1'
 
@@ -46,3 +47,4 @@ asyncFetchApi()
 
 // ts reminder
 reminder()
+task()
