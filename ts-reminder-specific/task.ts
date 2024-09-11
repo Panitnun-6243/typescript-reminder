@@ -4,8 +4,9 @@ export const task = () => {
     color: string
     text: string | { toString: () => string }
   } & (
-    | { variant?: 'contain'; opacity?: number }
-    | { variant?: 'outline'; borderWidth?: number }
+    | { variant: 'contain'; opacity?: number }
+    | { variant: 'outline'; borderWidth?: number }
+    | { variant?: never }
   )
 
   function buildButton(props?: ButtonProps) {
